@@ -50,6 +50,18 @@ Files are located in tthe wor2vex folder
 
 Dependencies for this project can be found in env.yml
 
-1. Download and install &nbsp;[anaconda](https://www.anaconda.com/products/distribution#Downloads)
+1. Download and install &nbsp;[Anaconda](https://www.anaconda.com/products/distribution#Downloads)
 
-2. Run **conda env create -f env.yml**
+2. Navigate to your desktop and create a new folder using  **mkdir "folder_name1"** and paste the env.yml file into **folder_name1** 
+
+3. Create another folder within folder1; **folder_name1/folder_name2**
+
+4. Run **conda env create -f env.yml -p ../folder_name1/folder_name2**
+
+5. Run **conda env list** to list all environments created using Anaconda
+
+6. Run **conda activate ./folder_name2** to activate the environment
+
+7. Run **conda list** to check if all dependencies have been installed
+
+8. Have fun experimenting !

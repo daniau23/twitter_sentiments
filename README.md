@@ -50,6 +50,6 @@ Files are located in tthe wor2vex folder
 
 Dependencies for this project can be found in env.yml
 
-1. Download and install &nbsp;[anaconda](https://www.anaconda.com/)
+1. Download and install &nbsp;[anaconda](https://www.anaconda.com/products/distribution#Downloads)
 
 2. Run **conda env create -f env.yml**

@@ -54,7 +54,7 @@ Dependencies for this project can be found in env.yml
 
 2. Navigate to your desktop and create a new folder using  **mkdir "folder_name1"** and paste the env.yml file into **folder_name1** 
 
-3. Create another folder within folder1; **folder_name1/folder_name2**
+3. Create another folder within folder_name1; **folder_name1/folder_name2**
 
 4. Run **conda env create -f env.yml -p ../folder_name1/folder_name2**
 

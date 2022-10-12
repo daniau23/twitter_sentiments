@@ -4,9 +4,9 @@
 
 In this project TF-IDF, BOW (Count Vectoriser) and Word2vec techniques were used. 
 
-The primary focus of this project is the use of Word2vec pretained model namely; glove-twitter-50 for model building for binary classification. Where 0 is netural and 1 is positive.
+The primary focus of this project is the use of Word2vec pretained model namely; glove-twitter-50, for model building and binary classification. Where 0 is netural and 1 is positive.
 
-TF-IDF and BOW were used for predictions on multiclass where 0 is neutral, 1 is positive and -1 is negative. The table of values shows the f1-scores when using Random Forest with TF-IDF and BOW;
+TF-IDF and BOW were used for predictions on multiclass where 0 is neutral, 1 is positive and -1 is negative. The table of values shows the f1-scores when using Random Forest with TF-IDF and BOW on test data;
 |  Model| f1-score- macro |f1-score- micro | f1-score- weighted
 | ----------- | ----------- | ----------- | ----------- |
 Random Forest with BOW |0.66|0.77|0.73|
